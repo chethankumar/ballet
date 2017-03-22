@@ -1,0 +1,23 @@
+{
+  "name": "ballet",
+  "version": "1.0.0",
+  "description": "micro service dev orchestrator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chethan Kumar SN",
+  "license": "MIT",
+  "engines": {
+    "node": "^6.9.0",
+    "npm": "^3.9.12"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "commander": "^2.9.0",
+    "execa": "^0.6.3",
+    "figlet": "^1.2.0",
+    "fs-finder": "^1.8.1"
+  }
+}
