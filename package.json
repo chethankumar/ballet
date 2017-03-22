@@ -1,5 +1,5 @@
 {
-  "name": "ballet",
+  "name": "micro-ballet",
   "version": "1.0.0",
   "description": "micro service dev orchestrator",
   "main": "app.js",
