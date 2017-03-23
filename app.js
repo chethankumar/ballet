@@ -18,7 +18,7 @@ commander
     .command('prep <project>')
     .description('builds all your microservices')
     .action(function (project) {
-        var files = Finder.from('../').exclude(['.git', 'node_modules']).findFiles('package.json', function (files) {
+        var files = Finder.from('./').exclude(['.git', 'node_modules']).findFiles('package.json', function (files) {
             console.log(chalk.bold.cyan('Setting up the Stage for performance.\n'));
             console.log(chalk.bold.cyan('Prepping up for show :: ' + project));
             console.log(chalk.cyan('\n Dressing up ballerinas :'));
@@ -57,7 +57,7 @@ commander
     .command('dance <project>')
     .description('runs all your microservices')
     .action(function (project) {
-        var files = Finder.from('../').exclude(['.git', 'node_modules']).findFiles('package.json', function (files) {
+        var files = Finder.from('./').exclude(['.git', 'node_modules']).findFiles('package.json', function (files) {
             console.log(chalk.bold.cyan('Stage is set for a grand performance.\n'));
             console.log(chalk.bold.cyan('Now Showing :: ' + project));
             console.log(chalk.cyan('\n Starring ballerinas :'));
