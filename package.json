@@ -1,6 +1,6 @@
 {
   "name": "micro-ballet",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "micro service dev orchestrator",
   "main": "app.js",
   "scripts": {
