@@ -13,7 +13,7 @@ clear();
 console.log(chalk.cyan(figlet.textSync('ballet', { horizontalLayout: 'full' })));
 
 commander
-    .version('1.1.0')
+    .version('1.2.0')
     .usage('prep <project name>')
     .command('prep <project>')
     .description('builds all your microservices')
@@ -52,7 +52,7 @@ commander
 
 
 commander
-    .version('1.1.0')
+    .version('1.2.0')
     .usage('dance <project name>')
     .command('dance <project>')
     .description('runs all your microservices')
